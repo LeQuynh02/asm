@@ -38,7 +38,7 @@ const singin = {
                 clip-rule="evenodd" />
             </svg>
           </span>
-          Sign in
+          Đăng nhập
         </button>
       </div>
     </form>
