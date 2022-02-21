@@ -74,7 +74,7 @@ return /* html */ `
             <div class="mr-3">
                 <div class="border-[1px]">
                     <a href="">
-                        <img src="${data.img}">
+                        <img src="${data.image}">
                     </a>
                 </div>
                 <div class="flex flex-row justify-center">

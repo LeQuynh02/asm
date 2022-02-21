@@ -1,7 +1,6 @@
-/* eslint-disable no-shadow */
 import axios from "axios";
 import { add } from "../../../api/posts";
-// import { add } from "../../../api/posts";
+
 import Navadmin from "../../../Components/Admindashoard/Navadmin";
 import { reRender } from "../../../utils";
 import NewPage from "./index";
@@ -66,13 +65,14 @@ return /* html */ `
           <div class="md:grid md:grid-cols-3 md:gap-6">
             <div class="mt-5 md:mt-0 md:col-span-2">
               <form action="" id="form-add-post">
-                <input type="text" placeholder="Tieu de bai viet" class="border border-black my-[15px]" id="title-post"> 
+                <input type="text" placeholder="Tieu de bai viet" class="border border-black my-[10px]" id="title-post"> 
                 <br>
-                <input type="file" class="border border-black" id="img-post">
+                <input type="file" class="border border-black my-[10px]" id="image-post">
                 <br>
-                <textarea name="" id="desc-post" cols="30" rows="10" class="border border-black my-[15px]"></textarea>
+                <textarea name="" id="content-post" cols="30" rows="10" class="border border-black my-[10px]"></textarea>
                 <br>
-                <button class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Thêm</button>
+                <button
+                  class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Thêm</button>
               </form>
 
             </div>
@@ -87,12 +87,12 @@ return /* html */ `
 },
 afterRender() {
 const formAdd = document.querySelector("#form-add-post");
-const imgPost = document.querySelector("#img-post");
+const imgPost = document.querySelector("#image-post");
 
 const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/ecommercer/image/upload";
 const CLOUDINARY_PRESET = "veaztpu6";
 
-formAdd.addEventListener("submit", async(e) => {
+formAdd.addEventListener("submit", async (e) => {
 e.preventDefault();
 const file = imgPost.files[0];
 const formData = new FormData();
@@ -106,8 +106,8 @@ headers: {
 });
 add({
 title: document.querySelector("#title-post").value,
-img: response.data.url,
-desc: document.querySelector("#desc-post").value,
+image: response.data.url,
+content: document.querySelector("#content-post").value,
 
 });
 document.location.href = "/admin/news/";

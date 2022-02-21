@@ -1,13 +1,13 @@
 import axios from "axios";
-import {get, upload } from "../../../api/posts";
+import { get, upload } from "../../../api/posts";
 import Navadmin from "../../../Components/Admindashoard/Navadmin";
 import NewPage from "./index";
 import { reRender } from "../../../utils";
 
 const Editnews = {
-async render(id) {
-const { data } = await get(id);
-return /* html */ ` <div class="min-h-full">
+  async render(id) {
+    const { data } = await get(id);
+    return /* html */ ` <div class="min-h-full">
   ${Navadmin.render()}
   <header class="bg-white shadow">
     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
@@ -64,14 +64,13 @@ return /* html */ ` <div class="min-h-full">
           <div class="md:grid md:grid-cols-3 md:gap-6">
             <div class="mt-5 md:mt-0 md:col-span-2">
               <form action="" id="form-add-post">
-                <input type="text" placeholder="Tieu de bai viet" class="border border-black my-[15px]" id="title-post"
-                  value="${data.title}"> <br />
-                <input type="file" class="border border-black my-[15px]" id="img-post" value="${data.img}">
-                <br />
-                <textarea name="" id="desc-post" cols="30" rows="10"
-                  class="border border-black my-[15px]">${data.desc}</textarea>
-                  <br>
-                <button class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Sửa</button>
+                <input type="text" placeholder="Tieu de bai viet" class="border border-black my-[10px]" id="title-post" value="${data.title}"> 
+                <br>
+                <input type="file" class="border border-black my-[10px]" id="image-post" value="${data.image}">
+                <br>
+                <textarea name="" id="content-post" cols="30" rows="10" class="border border-black my-[10px]">${data.content}</textarea>
+                <br>
+                <button class="inline-flex items-center px-4 py-[10px] border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Sửa</button>
               </form>
             </div>
           </div>
@@ -81,36 +80,36 @@ return /* html */ ` <div class="min-h-full">
 </div>
 </main>
 `;
-},
-afterRender(id) {
-const formAdd = document.querySelector("#form-add-post");
-const imgPost = document.querySelector("#img-post");
+  },
+  afterRender(id) {
+    const formAdd = document.querySelector("#form-add-post");
+    const imagePost = document.querySelector("#image-post");
 
-const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/ecommercer/image/upload";
-const CLOUDINARY_PRESET = "veaztpu6";
+    const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/ecommercer/image/upload";
+    const CLOUDINARY_PRESET = "veaztpu6";
 
-formAdd.addEventListener("submit", async(e) => {
-e.preventDefault();
-const file = imgPost.files[0];
-const formData = new FormData();
-formData.append("file", file);
-formData.append("upload_preset", CLOUDINARY_PRESET);
+    formAdd.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const file = imagePost.files[0];
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("upload_preset", CLOUDINARY_PRESET);
 
-const response = await axios.post(CLOUDINARY_API, formData, {
-headers: {
-"Content-type": "application/formData",
-},
-});
-upload({
-id,
-title: document.querySelector("#title-post").value,
-img: response.data.url,
-desc: document.querySelector("#desc-post").value,
+      const response = await axios.post(CLOUDINARY_API, formData, {
+        headers: {
+          "Content-type": "application/formData",
+        },
+      });
+      upload({
+        id,
+        title: document.querySelector("#title-post").value,
+        image: response.data.url,
+        content: document.querySelector("#content-post").value,
 
-});
-document.location.href = "/admin/news/";
-await reRender(NewPage, "#app");
-});
-},
+      });
+      document.location.href = "/admin/news/";
+      await reRender(NewPage, "#app");
+    });
+  },
 };
 export default Editnews;

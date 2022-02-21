@@ -2,15 +2,23 @@
   "posts": [
     {
       "title": "Hán phục",
-      "img": "http://res.cloudinary.com/ecommercer/image/upload/v1645259732/Anh/ubxhn7ttep2dukz57ata.jpg",
-      "desc": "h jnj bjm",
-      "id": "OrIZc1S"
+      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645260544/Anh/xtrpengm6bwr32vho9qz.jpg",
+      "introduce": "hfgchjgv",
+      "content": "hfgchjgv",
+      "day": "21-02-2022",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Hán phục",
+      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645472349/Anh/izjzxnobu8xxbvvpkdhe.jpg",
+      "content": "undefined"
     },
     {
       "title": "Hán phục",
-      "img": "http://res.cloudinary.com/ecommercer/image/upload/v1645260544/Anh/xtrpengm6bwr32vho9qz.jpg",
-      "desc": "hfgchjgv",
-      "id": "LHf4q65"
+      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645472333/Anh/ri57gygvwx4ubfxg9crh.jpg",
+      "content": "zvzv",
+      "id": 3
     }
   ],
   "users": [
