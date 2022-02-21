@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "title": "Hán phục",
+      "img": "http://res.cloudinary.com/ecommercer/image/upload/v1645259732/Anh/ubxhn7ttep2dukz57ata.jpg",
+      "desc": "h jnj bjm",
+      "id": "OrIZc1S"
+    },
+    {
+      "title": "Hán phục",
+      "img": "http://res.cloudinary.com/ecommercer/image/upload/v1645260544/Anh/xtrpengm6bwr32vho9qz.jpg",
+      "desc": "hfgchjgv",
+      "id": "LHf4q65"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "lengocquynh@gmail.com",
+      "password": "$2a$10$Q8iACh8ZkEi3I/9j2Wc/mOkjCFpmSXkQB2cWPz9qb2uytErnA5u1K",
+      "username": "Le Quynh"
+    }
+  ]
+}
