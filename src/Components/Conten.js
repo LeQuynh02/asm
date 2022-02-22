@@ -145,7 +145,40 @@ const content = {
                             </div>
                         </div>
                     </form>
-                
+                    <form action="">
+                        <div class=" khoiy border-solid border-2 border-[#f3f3f3] rounded-lg  ">
+                            <div class=" w-[100%] ">
+                                <a href="#"> <img src="https://suppothomap.com/wp-content/uploads/2020/05/han-phuc-vu-mong-3.jpg" alt=""></a>
+                            </div>
+                            <div class="py-[10px] px-[10px] leading-8">
+                                <a href="#">
+                                    <h4 class="font-bold hover:underline">Hán phục</h4>
+                                </a>
+                                <p class="text-[15px] text-[red]">2.000.000VND</p>
+                                <p>130,000,000 lượt xem</p>
+                            </div>
+                            <div class="conten-item text-center ">
+                                <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Thêm vào giỏ</button>
+                            </div>
+                        </div>
+                    </form>
+                    <form action="">
+                        <div class=" khoiy border-solid border-2 border-[#f3f3f3] rounded-lg  ">
+                            <div class=" w-[100%] ">
+                                <a href="#"> <img src="https://suppothomap.com/wp-content/uploads/2020/05/han-phuc-vu-mong-3.jpg" alt=""></a>
+                            </div>
+                            <div class="py-[10px] px-[10px] leading-8">
+                                <a href="#">
+                                    <h4 class="font-bold hover:underline">Hán phục</h4>
+                                </a>
+                                <p class="text-[15px] text-[red]">2.000.000VND</p>
+                                <p>130,000,000 lượt xem</p>
+                            </div>
+                            <div class="conten-item text-center ">
+                                <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Thêm vào giỏ</button>
+                            </div>
+                        </div>
+                    </form>
 
                 </div>
                 <div>
