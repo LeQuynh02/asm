@@ -13,7 +13,7 @@ const Headers = {
                 <div>
                     <ul class="w-[800px] mt-5 pl-10 flex ">
                         <li><a class="px-[20px]" href="/">Trang chủ</a></li>
-                        <li><a class="px-[20px]" href="/">Giới thiệu</a></li>
+                        <li><a class="px-[20px]" href="/">Bài viết</a></li>
                         <li><a class="px-[20px]" href="">Sản phẩm</a></li>
                         <li><a class="px-[20px]" href="">Liên hệ</a></li>
                         <!-- <li class="px-[20px]">
