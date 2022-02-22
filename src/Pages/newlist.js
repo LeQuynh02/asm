@@ -202,7 +202,7 @@ return /* html */ `
                         <p>130,000,000 lượt xem</p>
                     </div>
                     <div class="conten-item text-center ">
-                        <button>Thêm vào giỏ</button>
+                        <button class="inline-flex items-center px-4 py-[10px] border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Thêm vào giỏ</button>
                     </div>
                 </div>
             </form>
@@ -219,7 +219,7 @@ return /* html */ `
                         <p>130,000,000 lượt xem</p>
                     </div>
                     <div class="conten-item text-center ">
-                        <button>Thêm vào giỏ</button>
+                        <button class="inline-flex items-center px-4 py-[10px] border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Thêm vào giỏ</button>
                     </div>
                 </div>
             </form>
@@ -236,7 +236,7 @@ return /* html */ `
                         <p>130,000,000 lượt xem</p>
                     </div>
                     <div class="conten-item text-center ">
-                        <button>Thêm vào giỏ</button>
+                        <button class="inline-flex items-center px-4 py-[10px] border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Thêm vào giỏ</button>
                     </div>
                 </div>
             </form>
@@ -253,7 +253,7 @@ return /* html */ `
                         <p>130,000,000 lượt xem</p>
                     </div>
                     <div class="conten-item text-center ">
-                        <button>Thêm vào giỏ</button>
+                        <button class="inline-flex items-center px-4 py-[10px] border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Thêm vào giỏ</button>
                     </div>
                 </div>
             </form>
