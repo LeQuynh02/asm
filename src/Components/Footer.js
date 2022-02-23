@@ -21,7 +21,7 @@ const footer = {
                 </div>
                 <div class="intro px-[20px]">
                     <div>
-                        <h2 class="font-bold ">MY ACCOUNT</h2>
+                        <h2 class="font-bold ">Thông tin</h2>
                     </div>
                     <div class="pt-[10px] leading-8">
                         <p><a href="">Orders</a></p>
@@ -33,7 +33,7 @@ const footer = {
                 </div>
                 <div class="intro px-[20px]">
                     <div>
-                        <h2 class="font-bold "> INFORMATION</h2>
+                        <h2 class="font-bold ">Giới thiệu</h2>
                     </div>
                     <div class="pt-[10px] leading-8">
                         <p><a href="/">Trang chủ</a></p>
@@ -42,7 +42,7 @@ const footer = {
                         <p><a href="">Liên hệ</a></p>
                     </div>
                 </div>
-                <div class="intro px-[20px]">
+                <div class="intro px-[15px]">
                     <div>
                         <h2 class="font-bold leading-8 ">Liên hệ</h2>
                     </div>
