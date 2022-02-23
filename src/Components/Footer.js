@@ -36,16 +36,15 @@ const footer = {
                         <h2 class="font-bold "> INFORMATION</h2>
                     </div>
                     <div class="pt-[10px] leading-8">
-                        <p><a href="">About Us</a></p>
-                        <p><a href="">Return Policy</a></p>
-                        <p><a href="">Terms & condition</a></p>
-                        <p><a href="">Privacy Policy</a></p>
-                        <p><a href="">FAQ</a></p>
+                        <p><a href="/">Trang chủ</a></p>
+                        <p><a href="./blog">Bài viết</a></p>
+                        <p><a href="">Sản phẩm</a></p>
+                        <p><a href="">Liên hệ</a></p>
                     </div>
                 </div>
                 <div class="intro px-[20px]">
                     <div>
-                        <h2 class="font-bold leading-8 ">CONTACT</h2>
+                        <h2 class="font-bold leading-8 ">Liên hệ</h2>
                     </div>
                     <div class="pt-[10px] leading-8">
                         <p><a href="">Tòa nhà FPT Polytechnic, P. Trịnh Văn Bô, Xuân Phương, Nam Từ Liêm, Hà Nội</a></p>
