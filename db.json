@@ -6,6 +6,7 @@
       "introduce": "hfgchjgv",
       "content": "hfgchjgv",
       "day": "21-02-2022",
+      "price" : 2000000,
       "id": 1
     },
     {
@@ -14,12 +15,14 @@
       "introduce": "hfgchjgv",
       "content": "hfgchjgv",
       "day": "21-02-2022",
+      "price" : 3000000,
       "id": 3
     },
     {
       "title": "Hán phục",
       "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645524856/Anh/ov2mfp1aotop8ficjxoe.jpg",
       "content": "àdfvgd",
+      "price" : 6000000,
       "id": 4
     },
     {
@@ -59,6 +62,11 @@
       "email": "lengocquynh@gmail.com",
       "password": "$2a$10$Q8iACh8ZkEi3I/9j2Wc/mOkjCFpmSXkQB2cWPz9qb2uytErnA5u1K",
       "username": "Le Quynh"
+    }
+  ],
+  "products": [
+    {
+
     }
   ]
 }
