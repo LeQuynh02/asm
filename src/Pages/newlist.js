@@ -1,7 +1,10 @@
 import Headers from "../Components/Header";
 import footer from "../Components/Footer";
 import { get } from "../api/posts";
-
+import toastr from "toastr";
+import { $ } from "../utils";
+import { addToCart } from "../utils/cart";
+import "toastr/build/toastr.min.css";
 const newlist = {
 async render(id) {
 const { data } = await get(id);
@@ -109,7 +112,7 @@ return /* html */ `
             </div>
             <div class="detail">
                 <div class="flex ">
-                    <span class="text-red-700 font-semibold text-2xl mr-5 mt-2">${data.desc}</span>
+                    <span class="text-red-700 font-semibold text-2xl mr-5 mt-2">${data.price}</span>
                     <span class="font-semibold text-lg mt-3">2.000.000VND</span>
                 </div>
                 <div class="mt-2 bg-slate-100 grid grid-cols-4 rounded-md">
@@ -249,7 +252,7 @@ return /* html */ `
                         <p class="text-[15px] text-[red]">2.000.000VND</p>
                     </div>
                     <div class="conten-item text-center ">
-                        <button class="inline-flex items-center px-4 py-[10px] border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Thêm vào giỏ</button>
+                        <button class="inline-flex items-center px-4 py-[10px] border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[green] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" id="btnAddToCart">Thêm vào giỏ</button>
                     </div>
                 </div>
             </form>
@@ -263,6 +266,19 @@ return /* html */ `
 
 
 `;
+},
+afterRender(id) {
+    Headers.afterRender();
+    $("#btnAddToCart").addEventListener("click", async() => {
+        const { data } = await get(id);
+        console.log(data);
+        addToCart({...data, quantity: 1 },
+
+            () => {
+                toastr.success(`Them san pham ${data.name} Thanh cong`);
+            },
+        );
+    });
 },
 };
 export default newlist;
