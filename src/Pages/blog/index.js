@@ -24,7 +24,7 @@ const blog = {
                      
                         <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">   ${post.day}</h3>
                          <a href="/#/new/${post.id}"> <h2 class="text-lg text-gray-900 font-medium title-font mb-4">${post.title}</h2>  </a>
-                        <p class="leading-relaxed text-base">${post.introduce}</p>
+                        <p class="leading-relaxed text-base">${post.content}</p>
                     </div>
                 </div>
 
