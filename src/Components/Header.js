@@ -15,7 +15,7 @@ return /* html */ `
         <ul class="w-[800px] mt-5 pl-10 flex ">
             <li><a class="px-[20px]" href="/">Trang chủ</a></li>
             <li><a class="px-[20px]" href="./blog">Bài viết</a></li>
-            <li><a class="px-[20px]" href="">Sản phẩm</a></li>
+            <li><a class="px-[20px]" href="./products">Sản phẩm</a></li>
             <li><a class="px-[20px]" href="">Liên hệ</a></li>
             <!-- <li class="px-[20px]">
                         <a href="#">Home <span><i class="las la-angle-down"></i></span></a>
@@ -60,7 +60,7 @@ return /* html */ `
         </div>
         <form action="" class="w-[700px] mt-5 pl-10 flex ">
             <input type="text" class="h-10 w-10/12 pl-3 rounded-sm"
-                placeholder="Nhập tên điện thoại, máy tính, phụ kiện... cần tìm">
+                placeholder="Nhập tên sản phẩm cần tìm...">
             <div>
                 <button class="bg-[#2b2d42] text-[#ffffff] hover:text-[#ff0000] px-[20px] py-[8px] rounded-r-lg">Tìm
                     kiếm</button>
