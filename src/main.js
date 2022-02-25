@@ -20,7 +20,7 @@ router.on({
     "/": () => print(Homepage),
 
     "/products/:id": ({ data }) => print(detail, data.id),
-
+    "/admin/news": () => print(NewPage),
     "/admin/dashboard": () => print(Dashboard),
     "/cart": () => print(CartPage),
     "/admin/news/add": () => print(AddnewPage),
