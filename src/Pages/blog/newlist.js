@@ -42,38 +42,37 @@ const newlist = {
                 </div>
             </div>
         </main>
-
             </div>
             <div class=" shadow rounded p-8 sm:p-12">
                 <p class="text-3xl font-bold leading-7 text-center text-back">Contact me</p>
                 <form action="" method="post">
                     <div class="md:flex items-center mt-12">
                         <div class="w-full md:w-1/2 flex flex-col">
-                            <label class="font-semibold leading-none text-back">Name</label>
+                            <label class="font-semibold leading-none text-back">Tên</label>
                             <input type="text" class="  p-3 mt-4 shadow appearance-none border">
 
                         </div>
                         <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
-                            <label class="font-semibold leading-none text-back ">Phone</label>
+                            <label class="font-semibold leading-none text-back ">Điện thoại</label>
                             <input type="email" class=" p-3 mt-4 shadow appearance-none border">
                         </div>
                     </div>
                     <div class="md:flex items-center mt-8">
                         <div class="w-full flex flex-col">
-                            <label class="font-semibold leading-none text-back">Subject</label>
+                            <label class="font-semibold leading-none text-back">Tên sản phẩm</label>
                             <input type="text" class=" p-3 mt-4 shadow appearance-none border">
                         </div>
 
                     </div>
                     <div>
                         <div class="w-full flex flex-col mt-8">
-                            <label class="font-semibold leading-none text-gray-300">Message</label>
+                            <label class="font-semibold leading-none text-gray-300">Nội dung</label>
                             <textarea type="text" class="h-40  p-3 focus:outline-none focus:border-blue-700 mt-4  rounded shadow appearance-none border"></textarea>
                         </div>
                     </div>
                     <div class="flex items-center justify-center w-full">
                         <button class="mt-9 font-semibold leading-none text-white py-4 px-10 bg-blue-700 rounded hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
-                        Send message
+                        Gửi
                     </button>
                     </div>
                 </form>
