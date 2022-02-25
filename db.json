@@ -6,7 +6,7 @@
       "introduce": "hfgchjgv",
       "content": "hfgchjgv",
       "day": "21-02-2022",
-      "price" : 2000000,
+      "price": 2000000,
       "id": 1
     },
     {
@@ -15,45 +15,62 @@
       "introduce": "hfgchjgv",
       "content": "hfgchjgv",
       "day": "21-02-2022",
-      "price" : 3000000,
+      "price": 3000000,
       "id": 3
     },
     {
       "title": "Hán phục",
       "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645524856/Anh/ov2mfp1aotop8ficjxoe.jpg",
       "content": "àdfvgd",
-      "price" : 6000000,
+      "day": "21-02-2022",
+      "price": 6000000,
       "id": 4
     },
     {
       "title": "Hán phục",
       "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645606327/Anh/vn5cll9lnvof9z5fs95t.jpg",
       "content": "xdzvgxb",
+      "day": "21-02-2022",
+      "price": 6000000,
       "id": 5
     },
     {
       "title": "Hán phục",
       "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645606345/Anh/zdf4lm8c7kmgneiswwh5.jpg",
       "content": "dfcncnvn",
+      "day": "21-02-2022",
+      "price": 6000000,
       "id": 6
     },
     {
       "title": "Hán phục",
       "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645606367/Anh/r85pqvvs1avstjctb33z.jpg",
       "content": "édxhbxhb",
+      "day": "21-02-2022",
+      "price": 6000000,
       "id": 7
     },
     {
       "id": 8,
       "title": "Hán phục",
       "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645606429/Anh/mzznobyet8uppybtqdji.jpg",
-      "content": "cxv cxv"
+      "content": "cxv cxv",
+      "day": "21-02-2022",
+      "price": 6000000
     },
     {
       "title": "Hán phục",
       "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645606445/Anh/zz0d5wm0w9ryn0upsq0e.jpg",
       "content": "xvdsvs",
+      "day": "21-02-2022",
+      "price": 6000000,
       "id": 9
+    },
+    {
+      "title": "Hán phục",
+      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645773575/Anh/ykjnmodnsej1d54dzote.jpg",
+      "content": "bxhchg",
+      "id": 10
     }
   ],
   "users": [
@@ -65,8 +82,6 @@
     }
   ],
   "products": [
-    {
-
-    }
+    {}
   ]
 }
