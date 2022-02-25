@@ -58,7 +58,7 @@ const singin = {
         });
         localStorage.setItem("user", JSON.stringify(data.user));
         if (data.user.id == 1) {
-          document.location.href = "/admin/news";
+          document.location.href = "/Admin/New";
         } else {
           document.location.href = "/";
         }
